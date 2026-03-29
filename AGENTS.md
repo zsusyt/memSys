@@ -66,6 +66,14 @@ memSys/
 
 ## 相关链接与参考
 
-- MemGPT：虚拟上下文管理
-- LangChain Memory：对话记忆模块
-- 认知科学中的记忆分层模型
+详见 `docs/references/开源记忆系统参考清单.md`，主要项目包括：
+
+- **Letta (MemGPT)**：虚拟上下文管理，记忆分层架构
+- **Mem0**：生产级长期记忆，自动提取与整合
+- **LangMem**：LangChain 官方记忆 SDK
+- **Zep / Graphiti**：时序知识图谱
+- **Memobase**：Profile-based 用户画像记忆
+- **LanceDB / sqlite-vec**：本地零配置向量存储
+- **Generative Agents (斯坦福)**：反思机制与记忆流
+- **MemoryBank**：基于遗忘曲线的时间衰减
+- **A-Mem**：Zettelkasten 式记忆组织
