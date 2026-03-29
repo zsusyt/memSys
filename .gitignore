@@ -1,0 +1,52 @@
+# ================================================
+# OS & Editors
+# ================================================
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# ================================================
+# Local Data & State
+# ================================================
+# Memory stores, vector indices, local databases
+*.db
+*.db-journal
+*.lance/
+data/
+memories/
+logs/
+*.log
+
+# ================================================
+# Secrets & Environment Config
+# ================================================
+.env
+.env.local
+.env.*.local
+secrets.yaml
+secrets.json
+
+# ================================================
+# Language-specific (add as needed)
+# ================================================
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+
+# Node.js
+node_modules/
+dist/
+
+# Go
+bin/
+*.exe
+
+# Rust
+target/
+Cargo.lock
